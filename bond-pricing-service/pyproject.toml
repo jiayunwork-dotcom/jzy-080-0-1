@@ -1,0 +1,9 @@
+[project]
+name = "bond-pricing-service"
+version = "1.0.0"
+description = "Fixed-rate bond valuation and interest-rate risk engine over HTTP"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

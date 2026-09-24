@@ -1,0 +1,8 @@
+services:
+  bond-pricer:
+    build: .
+    image: bond-pricer:1.0.0
+    container_name: bond-pricer
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
